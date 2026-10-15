@@ -16,6 +16,11 @@
       <h4>My Really Cool Blog Post</h4>
     </div>
     <!-- Replaced static image with responsive picture element to handle images across different screen sizes as the question said  -->
+    <!--  the picture element lets the browser choose an image for each screen size
+     At 960px and wider the source loads the square images sizes="50vw" tells
+     the browser the image is half the screen wide so it picks a sharp file that
+     is not too big srcset lists each file with its real width Below 960px
+     the img loads the landscape images at full width  -->
     <picture>
       <source
         media="(min-width: 960px)"
