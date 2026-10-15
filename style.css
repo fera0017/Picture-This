@@ -29,8 +29,13 @@ h4 {
   font-weight: 300;
 }
 
+/* On mobile, the image fills the full width of its grid cell. On screens wider than 960px
+it takes up half the width of the header This way the size you see on the page matches 
+the sizes values in the HTML so the browser always picks the right image file */
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 960px) {
